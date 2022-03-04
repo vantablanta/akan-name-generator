@@ -13,6 +13,22 @@ body{
     height: 200px;
 }
 .form{
-    
     position: relative;
+    padding: 50px 100px;
+
+}
+#date{
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    color: rgb(161, 161, 161);
+}
+input:focus{
+    border: none;
+}
+#gender{
+    padding: 22px;
+    text-align: center;
+    width: 200px;
+    color: rgb(161, 161, 161);
 }

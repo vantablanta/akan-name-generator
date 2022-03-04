@@ -30,8 +30,7 @@ let days = [
 
 //add event listener
 let inputAction = document.getElementById('btn').addEventListener('click', collectData)
-
-
+//find index day
 function collectData(){
     //collect input date
     let birthday = document.getElementById('date').value
