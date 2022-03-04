@@ -15,10 +15,10 @@ let userGender;
 
 
 //collect data and parse the integers
-function collectData(){
-     userDD = inputDate.value
-     userMM = inputMonth.value
-     userYY = inputYear.value
-     userGender = inputGender.value
-     console.log(userDD, userMM, userYY, userGender)
+function collectData() {
+    userDD = inputDate.value
+    userMM = inputMonth.value
+    userYY = inputYear.value
+    userGender = inputGender.value
+    console.log(userDD, userMM, userYY, userGender)
 }
