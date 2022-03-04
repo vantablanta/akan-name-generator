@@ -1,24 +1,50 @@
+    //akan data
+let maleAkans = [
+    "Sunday: Kwasi",
+    "Monday: Kwadwo",
+    "Tuesday: Kwabena",
+    "Wednesday: Kwaku",
+    "Thursday: Yaw",
+    "Friday: Kofi",
+    "Saturday: Kwame"
+]
+let femaleAkans = [
+    "Sunday: Akosua",
+    "Monday: Adwoa",
+    "Tuesday: Abenaa",
+    "Wednesday: Akua",
+    "Thursday:  Yaa",
+    "Friday: Afua",
+    "Saturday: Ama"
+]
+let days = [
+    'Sunday',
+    'Monday',
+    'Tuesdday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday'
+]
 
 
-let inputDate = document.getElementById('dd')
-let inputMonth = document.getElementById('mm')
-let inputYear = document.getElementById('yy')
-let inputGender = document.getElementById('gender')
+//add event listener
+let inputAction = document.getElementById('btn').addEventListener('click', collectData)
 
 
-let userDD;
-let userMM;
-let userYY;
-let userGender;
-
-
-
-
-//collect data and parse the integers
-function collectData() {
-    userDD = inputDate.value
-    userMM = inputMonth.value
-    userYY = inputYear.value
-    userGender = inputGender.value
-    console.log(userDD, userMM, userYY, userGender)
+function collectData(){
+    //collect input date
+    let birthday = document.getElementById('date').value
+    //convert to date format
+    const d = new Date(birthday)
+    // get the day in index
+    let day = d.getDay()
+    // get the gender
 }
+
+
+
+
+
+
+
