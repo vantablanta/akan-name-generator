@@ -4,11 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
     <title>Generate Akan Name</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer ></script>
 </head>
 <body>
-    
+    <div class="background">
+        <img id="background"src="images/background-img.jpg">
+    </div>
+    <div class="logo">
+        <a href="index.html">
+            <img id="logo"src="images/logo.png">
+        </a>
+    </div>
+    <div class="form">
+        <form>
+            <input type="number" id="dd" value= ""placeholder="Day" min="1" max="31" required>          
+                <select class="month" id="mm" required>
+                <option>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <input type="number" name="" id="yy" placeholder="Year" min="1900" max="2022" required>
+            <select name="Gender" id="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            <input type="submit" value="Submit" onclick = collectData()>
+        </form>
+    </div>   
 </body>
 </html>

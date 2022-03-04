@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+#background{
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+}
+#logo{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.form{
+    
+    position: relative;
+}
