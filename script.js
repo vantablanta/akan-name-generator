@@ -1,4 +1,4 @@
-    //akan data
+//akan data
 let maleAkans = [
     "Sunday: Kwasi",
     "Monday: Kwadwo",
@@ -31,13 +31,14 @@ let days = [
 //add event listener
 let inputAction = document.getElementById('btn').addEventListener('click', collectData)
 //find index day
-function collectData(){
+function collectData() {
     //collect input date
     let birthday = document.getElementById('date').value
     //convert to date format
     const d = new Date(birthday)
     // get the day in index
     let day = d.getDay()
+    console.log(day)
     // get the gender
 }
 
