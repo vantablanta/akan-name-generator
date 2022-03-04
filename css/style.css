@@ -1,6 +1,7 @@
 body{
     margin: 0;
     overflow: hidden;
+    font-size: 15px;
 }
 #background{
     background-size: cover;
@@ -15,20 +16,36 @@ body{
 .form{
     position: relative;
     padding: 50px 100px;
-
 }
 #date{
     padding: 20px;
     width: 400px;
     text-align: center;
-    color: rgb(161, 161, 161);
+    font-size: 15px;
 }
 input:focus{
     border: none;
+    outline: none;    
+}
+#gender:focus{
+    border: none;
+    outline: none;
+    font-size: 15px;
 }
 #gender{
     padding: 22px;
     text-align: center;
     width: 200px;
-    color: rgb(161, 161, 161);
+    background-color: white;
+}
+option{
+    font-size: 15px;
+}
+#btn{
+    padding: 22px;
+    width: 100px;
+    background-color: #3cc202;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
 }
