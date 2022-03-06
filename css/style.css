@@ -12,11 +12,18 @@ body{
 .background{
     overflow: hidden;
     position: absolute;
+    width: 100%;
 }
-#logo{
+.logo{
     position: relative;
     width: 200px;
     height: 200px;
+    top: 30px;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+
 }
 .description{
     position: relative;
@@ -78,7 +85,18 @@ p{
 }
 .footer{
     position: relative;
+    top: -100px;
 }
+hr{
+    border-color: #3cc202;
+}
+h4{
+    text-align: center;
+}
+
+
+
+
 
 
 @media screen and (max-width: 720px) {
@@ -86,16 +104,17 @@ p{
         box-sizing: border-box;
         overflow: hidden;
         margin: 0;
+    } 
+    .description{
+        top: -80px;
 
     }
-    .background{
-        width: 100%;
-    }  
+    .form{
+        top: -80px;
+    }
     p{
         margin-left: 20px;
-    }
-    .form{
-        margin-left: 20px;
+        max-width: 100%;
     }
     #date{
         width: 200px;
@@ -104,6 +123,11 @@ p{
     }
     #gender{
         width: 200px;
+        font-size: 15px;
+    }
+    #btn{
+        width: 450px;
+        font-size: 15px;
     }
 
 
