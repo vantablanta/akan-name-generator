@@ -121,6 +121,16 @@ h4{
 .hide-description{
     display: none;
 }
+.link-style{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+.link-style:hover{
+    border: none;
+    color: #3cc202;
+}
 
 
 
