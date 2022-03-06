@@ -9,8 +9,7 @@ body{
     position: relative;
     margin: 0 100px;
 }
-#background{
-    background-size: cover;
+.background{
     overflow: hidden;
     position: absolute;
 }
@@ -19,20 +18,32 @@ body{
     width: 200px;
     height: 200px;
 }
-.akan-form{
+.description{
     position: relative;
-    top: -100px;
-    padding: 50px 100px;
-    margin: 0 200px 0 300px;
+    top: -150px;
+    text-align: center;
+    margin: 100px;
+}
+p{
+    font-weight: bolder;
+    margin-left: 300px;
+    max-width: 50%;
+    text-align: center;
+}
+.form{
+    position: relative;
+    top: -200px;
+    margin: 100px;
     font-family: 'Playfair Display', serif;
 }
 #date{
     padding: 20px;
-    width: 200px;
+    width: 400px;
     font-size: 20px;
     text-align: center;
     font-family: 'Playfair Display', serif;
     border: none;
+    margin: 5px;
 }
 #date:focus{
     border: none;
@@ -40,12 +51,13 @@ body{
 }
 #gender{
     padding: 20px;
-    width: 200px;
+    width: 350px;
     font-size: 20px;
     text-align: center;
     background-color: white;
     font-family: 'Playfair Display', serif;
     border: none;
+    margin: 5px;
 }
 #gender:focus{
     border: none;
@@ -54,33 +66,47 @@ body{
 #btn{
     margin: 10px;
     padding: 20px;
-    width: 420px;
+    width: 200px;
     text-align: center;
     font-size: 20px;
     background-color: #3cc202;
-    border: none;
+    border: 1px solid #3cc202;
     font-family: 'Playfair Display', serif;
 }
 #btn:hover{
     color: white;
 }
-.description{
-    margin: 0 100px;
+.footer{
     position: relative;
-    text-align: center;
-    top: -70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: rgb(0, 0, 0);
 }
-h1{
-    font-size: 50px;
-    color: white;
-}
-p{
-    width: 50%;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
+
+
+@media screen and (max-width: 720px) {
+    body{
+        box-sizing: border-box;
+        overflow: hidden;
+        margin: 0;
+
+    }
+    .background{
+        width: 100%;
+    }  
+    p{
+        margin-left: 20px;
+    }
+    .form{
+        margin-left: 20px;
+    }
+    #date{
+        width: 200px;
+        font-size: 15px;
+
+    }
+    #gender{
+        width: 200px;
+    }
+
+
+
+
 }
