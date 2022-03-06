@@ -39,8 +39,8 @@ function collectData() {
     if (d > today){
         console.log("Seems like you havent been born yet")
     }
-    else if (gender == ''){
-        console.log('You havent entered your gender')
+    else if (isNaN(d) || gender == ''){
+        console.log('You havent entered your gender or birthday')
     }
     else if (gender == "male" && day == 0){
         console.log(maleAkans[0])
