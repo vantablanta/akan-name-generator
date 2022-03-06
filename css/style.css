@@ -32,7 +32,7 @@ p{
     margin-left: 300px;
     max-width: 50%;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 #ghana{
@@ -89,7 +89,7 @@ p{
 }
 .footer{
     position: relative;
-    top: -220px;
+    top: -190px;
 }
 hr{
     border-color: #3cc202;
@@ -131,17 +131,16 @@ a{
     display: none;
 }
 .link-style{
-    color: black;
+    color: #3cc202;
     text-decoration: none;
     margin: 5px;
     padding: 5px;
-    border-top: 1px #3cc202 solid;
-    border-bottom: 1px #3cc202 solid;
     border-radius: 10px;
 }
 .link-style:hover{
     border: none;
-    color: #3cc202;
+    color: white;
+    background-color: black;
 }
 
 @media screen and (max-width: 720px) {
@@ -169,6 +168,10 @@ a{
         width: 450px;
         font-size: 15px;
     }
+    .footer{
+        position: relative;
+        top: -230px;
+    }
     
     /*JS classes css*/
     .modal-display{
@@ -177,6 +180,12 @@ a{
        top: -20px;
        padding: 50px;
     }
+    .link-style{
+        text-decoration: none;
+        margin: 5px;
+        padding: 5px;
+        border-top: none;
 
+    }
 
 }
