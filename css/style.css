@@ -99,6 +99,13 @@ h4{
     font-weight: bolder;
     font-size: 15px;
 }
+h4:hover{
+    color: #3cc202;
+    
+}
+a{
+    text-decoration: none;
+}
  /*CSS classes for JS code*/
 .footer-hide{
      display: none;
