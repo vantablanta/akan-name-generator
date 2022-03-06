@@ -36,13 +36,25 @@ function collectData() {
     const today = new Date()
     let day = d.getDay()
     let gender = document.getElementById('gender').value;
+    let form = document.querySelector('form')
+    let modal = document.getElementById('modal')
+    let text = document.querySelector('.description')
+    let footer = document.querySelector('.footer')
     if (d > today){
-        console.log("Seems like you havent been born yet")
+        //warning
+        form.classList.add('form-hidden')
+        text.classList.add('hide-description')
+        modal.classList.add('modal-display')
+        modal.textContent = "Wow! Are you from the future. Click logo to retry "
+        footer.classList.add('footer-hide')    
+
     }
     else if (isNaN(d) || gender == ''){
+        // warning
         console.log('You havent entered your gender or birthday')
     }
     else if (gender == "male" && day == 0){
+
         console.log(maleAkans[0])
     }
     else if (gender == 'female' && day  == 0){
