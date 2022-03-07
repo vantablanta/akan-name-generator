@@ -20,7 +20,7 @@ let femaleAkans = [
 let days = [
     'Sunday',
     'Monday',
-    'Tuesdday',
+    'Tuesday',
     'Wednesday',
     'Thursday',
     'Friday',

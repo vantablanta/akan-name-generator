@@ -22,9 +22,9 @@ It works by displaying your akan name based on your gender and date of birth. In
 * You can load it locally since you have all he files needed
 
 ## Technologies Used
-HTML - Structure
-CSS - Style
-JS - Functionality
+- HTML - Structure
+- CSS - Style
+- JS - Functionality
 
 ## Live Link
 [View Site](https://vantablanta.github.io/akan-name-generator/)
