@@ -28,7 +28,7 @@ CSS - Style
 JS - Functionality
 
 ## Live Link
-[View Site]()
+[View Site](https://vantablanta.github.io/akan-name-generator/)
 
 ## Support 
 [Conatct For Support](https://github.com/vantablanta)
